@@ -1,0 +1,139 @@
+2025-04-10 09:03:14,274 INFO  elkdemo.ElkdemoApplication - Starting ElkdemoApplication using Java 21.0.5 with PID 8988 (C:\Users\klic\IdeaProjects\elkdemo\build\classes\java\main started by klic in C:\Users\klic\IdeaProjects\elkdemo)
+2025-04-10 09:03:14,279 INFO  elkdemo.ElkdemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-10 09:03:15,203 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-10 09:03:15,251 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.
+2025-04-10 09:03:15,797 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-10 09:03:15,874 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1549 ms
+2025-04-10 09:03:16,129 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-10 09:03:16,187 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-10 09:03:16,221 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-10 09:03:16,497 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-10 09:17:20,121 INFO  elkdemo.ElkdemoApplicationTests - Starting ElkdemoApplicationTests using Java 21.0.6 with PID 20268 (started by klic in C:\Users\klic\IdeaProjects\elkdemo)
+2025-04-10 09:17:20,124 INFO  elkdemo.ElkdemoApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-04-10 09:17:21,118 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-10 09:17:21,182 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+2025-04-10 09:17:21,814 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-10 09:17:21,876 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-10 09:17:21,911 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-10 09:17:22,163 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-10 09:17:22,202 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-10 09:17:22,353 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-04-10 09:17:22,356 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-10 09:17:22,376 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-10 09:17:22,393 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-10 09:17:23,011 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-10 09:17:23,068 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10 09:17:23,617 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-10 09:17:24,464 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-10 09:17:24,513 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2025-04-10 09:17:24,582 INFO  elkdemo.ElkdemoApplicationTests - Started ElkdemoApplicationTests in 5.046 seconds (process running for 6.128)
+2025-04-10 09:17:25,008 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10 09:17:25,008 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-10 09:17:25,008 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-10 09:20:54,380 INFO  elkdemo.ElkdemoApplicationTests - Starting ElkdemoApplicationTests using Java 21.0.6 with PID 14012 (started by klic in C:\Users\klic\IdeaProjects\elkdemo)
+2025-04-10 09:20:54,380 INFO  elkdemo.ElkdemoApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-04-10 09:20:55,200 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-10 09:20:55,238 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2025-04-10 09:20:55,854 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-10 09:20:55,920 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-10 09:20:55,970 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-10 09:20:56,270 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-10 09:20:56,310 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-10 09:20:56,508 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-04-10 09:20:56,519 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-10 09:20:56,539 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-10 09:20:56,557 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-10 09:20:57,311 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-10 09:20:57,356 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10 09:20:57,924 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-10 09:20:58,872 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-10 09:20:58,926 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2025-04-10 09:20:58,988 INFO  elkdemo.ElkdemoApplicationTests - Started ElkdemoApplicationTests in 5.222 seconds (process running for 6.26)
+2025-04-10 09:20:59,560 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10 09:20:59,562 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-10 09:20:59,564 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-10 09:23:54,836 INFO  elkdemo.ElkdemoApplicationTests - Starting ElkdemoApplicationTests using Java 21.0.6 with PID 9484 (started by klic in C:\Users\klic\IdeaProjects\elkdemo)
+2025-04-10 09:23:54,847 INFO  elkdemo.ElkdemoApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-04-10 09:23:55,664 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-10 09:23:55,701 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interface.
+2025-04-10 09:23:56,295 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-10 09:23:56,352 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-10 09:23:56,393 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-10 09:23:56,665 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-10 09:23:56,691 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-10 09:23:56,849 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-04-10 09:23:56,854 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-10 09:23:56,871 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-10 09:23:56,892 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-10 09:23:57,549 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-10 09:23:57,587 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10 09:23:58,220 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-10 09:23:59,021 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-10 09:23:59,067 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2025-04-10 09:23:59,132 INFO  elkdemo.ElkdemoApplicationTests - Started ElkdemoApplicationTests in 4.869 seconds (process running for 5.934)
+2025-04-10 09:23:59,621 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10 09:23:59,638 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-10 09:23:59,642 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-10 09:24:01,082 INFO  elkdemo.ElkdemoApplication - Starting ElkdemoApplication v0.0.1-SNAPSHOT using Java 21.0.6 with PID 21636 (C:\Users\klic\IdeaProjects\elkdemo\build\libs\app.jar started by klic in C:\Users\klic\IdeaProjects\elkdemo)
+2025-04-10 09:24:01,097 INFO  elkdemo.ElkdemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-10 09:24:01,905 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-10 09:24:01,955 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+2025-04-10 09:24:02,534 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-10 09:24:02,559 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-10 09:24:02,561 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-10 09:24:02,561 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10 09:24:02,599 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-10 09:24:02,610 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1476 ms
+2025-04-10 09:24:02,988 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-10 09:24:03,027 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-10 09:24:03,084 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-10 09:24:03,366 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-10 09:24:03,393 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-10 09:24:03,555 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-04-10 09:24:03,557 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-10 09:24:03,566 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-10 09:24:03,580 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-10 09:24:04,183 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-10 09:24:04,229 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10 09:24:04,615 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-10 09:24:05,237 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-10 09:24:05,275 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2025-04-10 09:24:05,327 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-10 09:24:05,353 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-10 09:24:05,370 INFO  elkdemo.ElkdemoApplication - Started ElkdemoApplication in 5.0 seconds (process running for 5.452)
+2025-04-10 09:25:44,183 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-10 09:25:44,183 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-10 09:25:44,186 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-04-10 09:42:41,355 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-10 09:42:41,368 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-10 09:42:41,372 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-10 09:42:41,377 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-10 09:42:41,379 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
