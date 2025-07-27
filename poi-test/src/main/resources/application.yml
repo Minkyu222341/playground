@@ -1,0 +1,35 @@
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/excel-test
+#    username: postgres
+#    password: asdf1020@@
+#    driver-class-name: org.postgresql.Driver
+#
+#  jpa:
+#    database-platform: org.hibernate.dialect.PostgreSQLDialect
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: create-drop
+#    defer-datasource-initialization: true
+#
+#  sql:
+#    init:
+#      platform: postgresql
+#      mode: always
+
+spring:
+  datasource:
+    url:  jdbc:h2:~/test2
+    username: sa
+    password:
+
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    defer-datasource-initialization: true
+    properties:
+      hibernate:
+        show_sql: true
